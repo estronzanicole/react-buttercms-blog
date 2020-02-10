@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-signin-client_id"
+    content="669827031301-ubjngmo54pniv2d2bfac7jd9g76kp07f.apps.googleusercontent.com">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title>DevCamp React Starter</title>
+</head>
+
+<body>
+  <div class="app-wrapper"> </div>
+  <div id="root"></div>
+  <!-- <script src="https://cdnjs.buttercms.com/buttercms-1.2.1.min.js"></script> -->
+  <script src="https://apis.google.com/js/api:client.js"></script>
+
+
+
+
+  <body>
+    <!-- In the callback, you would hide the gSignInWrapper element on a
+    successful sign in -->
+    <div id="name"></div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("<YOUR USER ID>");
+        // Obtain your user ID at the dashboard https://dashboard.emailjs.com/integration
+      })();
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e41785b9173f5ce"></script>
+
+  </body>
+
+</html>
