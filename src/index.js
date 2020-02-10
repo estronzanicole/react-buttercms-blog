@@ -5,7 +5,17 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
+import Homepage from './Homepage'
 
+const AppRouter = () => (
+    <Router>
+        <div>
+            <Route path='/' exact component={Homepage} />
+        </div>
+    </Router>
+)
+
+ReactDOM.render(<AppRouter />, document.getElementById('root'))
 
 
 ReactDOM.render(<AppRouter />, document.getElementById('root'))
