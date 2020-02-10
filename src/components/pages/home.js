@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default function () {
-    return (
-        <div>
+export default class extends Component {
+    constructor(props) {
+        super(props)
 
-            <div class="fb-login-button" data-width="" data-size="Mediums" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="false"></div>
-        </div>
-    )
+        this.state = {
+
+        }
+    }
+
+    render() {
+        return (
+
+
+
+
+            <div>
+
+            </div>
+        )
+    }
 }
